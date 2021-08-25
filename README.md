@@ -4,4 +4,4 @@ Code based on [Swiftful Thinking](https://www.youtube.com/channel/UCp25X4LzOLaks
 
 ## Screenshots
 
-<img src="./Resources/#6.png" height="500">
+<img src="./Resources/6.png" height="500">
