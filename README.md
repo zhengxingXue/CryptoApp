@@ -4,4 +4,4 @@ Code based on [Swiftful Thinking](https://www.youtube.com/channel/UCp25X4LzOLaks
 
 ## Screenshots
 
-![CryptoApp](Resources/#6.png)
+![CryptoApp](/Resources/#6.png)
