@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38284FB626D8715600EE062F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38284FB526D8715600EE062F /* DetailView.swift */; };
 		3837083826D68C3D0052E124 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3837083726D68C3D0052E124 /* HomeViewModel.swift */; };
 		3837083B26D692010052E124 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3837083A26D692010052E124 /* CoinDataService.swift */; };
 		3837083E26D69ECC0052E124 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3837083D26D69ECC0052E124 /* NetworkManager.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38284FB526D8715600EE062F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		3837083726D68C3D0052E124 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		3837083A26D692010052E124 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		3837083D26D69ECC0052E124 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -89,6 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38284FB226D8712F00EE062F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				38284FB426D8714800EE062F /* ViewModel */,
+				38284FB326D8714300EE062F /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		38284FB326D8714300EE062F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38284FB526D8715600EE062F /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38284FB426D8714800EE062F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3837083926D691DE0052E124 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +202,7 @@
 			children = (
 				3837BC1926D5E4E300080F0D /* Components */,
 				3837BC1426D5E42C00080F0D /* Home */,
+				38284FB226D8712F00EE062F /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -326,6 +353,7 @@
 				3837BC2726D5F2E600080F0D /* Double+.swift in Sources */,
 				3837BC1C26D5E50300080F0D /* CircleButtonView.swift in Sources */,
 				3837084926D6F4390052E124 /* SearchBarView.swift in Sources */,
+				38284FB626D8715600EE062F /* DetailView.swift in Sources */,
 				3837086226D73DBF0052E124 /* HapticManager.swift in Sources */,
 				3837BC0226D5E00700080F0D /* CryptoApp.swift in Sources */,
 				3837083E26D69ECC0052E124 /* NetworkManager.swift in Sources */,
