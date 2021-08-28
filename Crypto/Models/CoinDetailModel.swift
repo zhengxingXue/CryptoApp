@@ -113,6 +113,8 @@ struct CoinDetailModel: Codable {
         case welcomeDescription = "description"
         case links
     }
+    
+    var readableDescription: String? { welcomeDescription?.en?.removingHTMLOccurances }
 }
 
 struct Links: Codable {
