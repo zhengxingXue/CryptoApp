@@ -6,7 +6,7 @@ The project benefits from multi-threading, publishers/subscribers, and data pers
 
 ## API
 
-<img src="./Resources/coingecko.png" height="300">
+<img src="./Resources/coingecko.png">
 
 The cryptocurrency data that is used in this app comes from a free API from [CoinGecko](https://www.coingecko.com)! Prices may be slightly delayed.
 
