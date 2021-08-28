@@ -24,7 +24,6 @@ class PortfolioDataService {
             }
             self.getPortfolio()
         }
-        
     }
     
     // MARK: Public
